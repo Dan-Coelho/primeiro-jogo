@@ -1,0 +1,95 @@
+@charset "UTF-08";
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Suez+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2em;
+  color: white;
+  background-color: #0d0d35;
+}
+header {
+  position: relative;
+  height: 40vh;
+  border: 6px solid white;
+}
+main {
+  height: 60vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.inputs {
+  width: 30vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.resultados {
+  width: 30vw;
+  font-size: 0.7em;
+}
+h1 {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+.dica {
+  position: absolute;
+  font-size: 0.7em;
+  top: 4em;
+  right: 2em;
+}
+.numero {
+  background: white;
+  color: rgb(13, 13, 53);
+  font-size: 3em;
+  text-align: center;
+  width: 150px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+.reset {
+  position: absolute;
+  top: 2em;
+  left: 2em;
+  padding: 15px;
+}
+.aposta {
+  border: 2px solid white;
+  background: none;
+  display: block;
+  width: 200px;
+  font-size: 1em;
+  color: inherit;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.btn {
+  border: none;
+  background-color: #eee;
+  color: rgb(13, 13, 53);
+  font-size: 0.8em;
+  font-family: inherit;
+  padding: 1rem 3rem;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgb(189, 212, 233);
+}
+.mensagem,
+.resultado,
+.pontuacao {
+  text-align: center;
+  margin-bottom: 10px;
+  height: 50px;
+}
