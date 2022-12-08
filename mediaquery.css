@@ -49,9 +49,9 @@
   .numero {
     background: white;
     color: rgb(13, 13, 53);
-    font-size: 3em;
+    font-size: 2em;
     text-align: center;
-    width: 150px;
+    width: 120px;
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -80,7 +80,7 @@
     color: rgb(13, 13, 53);
     font-size: 0.8em;
     font-family: inherit;
-    padding: 1rem 3rem;
+    padding: 1rem 1.5rem;
     cursor: pointer;
   }
   .btn:hover {
