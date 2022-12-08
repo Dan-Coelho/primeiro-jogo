@@ -37,7 +37,7 @@ document.querySelector('.check').addEventListener('click', function () {
 document.querySelector('.reset').addEventListener('click', function () {
   numeroSecreto = Math.trunc(Math.random() * 50) + 1;
   placar = 15;
-  document.querySelector('.mensagem').textContent = 'Preparando para iniciar!';
+  document.querySelector('.mensagem').textContent = 'Pronto para iniciar!';
   document.querySelector('.mensagem').style.backgroundColor = '#0d0d35';
   document.querySelector('.mensagem').style.color = 'white';
   document.querySelector('.placar').textContent = placar;

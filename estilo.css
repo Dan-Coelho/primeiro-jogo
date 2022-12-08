@@ -9,7 +9,7 @@
 }
 body {
   font-family: 'Orbitron', sans-serif;
-  font-size: 2em;
+  font-size: 1.5em;
   color: white;
   background-color: #0d0d35;
 }
@@ -26,30 +26,29 @@ main {
   justify-content: space-around;
 }
 .inputs {
-  width: 30vw;
+  width: 20vw;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 .resultados {
-  width: 30vw;
-  font-size: 0.7em;
+  width: 40vw;
+  font-size: 0.6em;
 }
 h1 {
-  width: 100%;
   text-align: center;
   padding: 10px;
 }
 .dica {
   position: absolute;
   font-size: 0.7em;
-  top: 4em;
+  top: 7em;
   right: 2em;
 }
 .numero {
   background: white;
   color: rgb(13, 13, 53);
-  font-size: 3em;
+  font-size: 1.5em;
   text-align: center;
   width: 150px;
   position: absolute;
@@ -59,7 +58,7 @@ h1 {
 }
 .reset {
   position: absolute;
-  top: 2em;
+  top: 5em;
   left: 2em;
   padding: 15px;
 }
@@ -67,7 +66,7 @@ h1 {
   border: 2px solid white;
   background: none;
   display: block;
-  width: 200px;
+  width: 150px;
   font-size: 1em;
   color: inherit;
   text-align: center;
@@ -80,7 +79,7 @@ h1 {
   color: rgb(13, 13, 53);
   font-size: 0.8em;
   font-family: inherit;
-  padding: 1rem 3rem;
+  padding: 1rem 2rem;
   cursor: pointer;
 }
 .btn:hover {
@@ -90,6 +89,6 @@ h1 {
 .resultado,
 .pontuacao {
   text-align: center;
-  margin-bottom: 10px;
-  height: 50px;
+  margin-bottom: 15px;
+  height: 35px;
 }
