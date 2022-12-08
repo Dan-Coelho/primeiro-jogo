@@ -42,7 +42,7 @@ h1 {
 .dica {
   position: absolute;
   font-size: 0.7em;
-  top: 7em;
+  top: 8em;
   right: 2em;
 }
 .numero {
@@ -58,7 +58,7 @@ h1 {
 }
 .reset {
   position: absolute;
-  top: 5em;
+  top: 6em;
   left: 2em;
   padding: 15px;
 }
