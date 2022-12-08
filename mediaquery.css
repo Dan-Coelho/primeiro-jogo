@@ -43,7 +43,7 @@
   .dica {
     position: absolute;
     font-size: 0.7em;
-    top: 4em;
+    top: 3em;
     right: 2em;
   }
   .numero {
@@ -80,7 +80,7 @@
     color: rgb(13, 13, 53);
     font-size: 0.8em;
     font-family: inherit;
-    padding: 1rem 1.5rem;
+    padding: 0.5rem 1.5rem;
     cursor: pointer;
   }
   .btn:hover {
